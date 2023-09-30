@@ -1,4 +1,5 @@
 import './App.scss'
+import './decode'
 
 export default function App() {
     return <>
