@@ -2,33 +2,46 @@
     position: fixed;
     left: 0;
     top: 0;
+    display: flex;
     width: 100vw;
     height: 100vh;
     background-color: #777;
 }
 
 .dialog {
+    margin: auto;
     background-color: #fff;
     max-height: 500px;
     max-width: 350px;
 
     &__header {
+        display: flex;
         background-color: #ddd;
     }
 
     &__header-title-container {
+        overflow: hidden;
     }
 
     &__header-title {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
     }
 
     &__header-button {
+        flex: 1 0 120px;
+        padding: 2px;
     }
 
     &__content {
+        display: flex;
+        max-height: 320px;
     }
 
     &__content-block {
+        overflow: auto;
+
         &_left {
             width: 30%;
             border-right: 1px solid #ccc;
@@ -41,6 +54,8 @@
 
     &__footer {
         background-color: #ddd;
+        text-align: center;
+        overflow-wrap: break-word;
     }
 }
 
