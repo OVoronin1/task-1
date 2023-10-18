@@ -1,7 +1,9 @@
 # РЕШЕНИЕ
 ## тестового задания здесь:
 
-App.jsx, App.scss, decode.js
+App.jsx, App.scss, decode.js.
+
+Демонстрация: http://typetrainer.ru/task-1/
 
 # Тестовое задание
 
